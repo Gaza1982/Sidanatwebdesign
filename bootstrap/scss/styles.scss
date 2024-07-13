@@ -1,6 +1,16 @@
-$primary: #fff;
+.navbar .btn-outline-light:hover {
 
-body {
+    color: var(--bs-dark);
+}
 
-    background-color: $primary;
+.header {
+
+    background: url(../images/header-background.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+::placeholder {
+
+    text-align: center;
 }
